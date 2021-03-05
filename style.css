@@ -46,7 +46,7 @@ body {
     text-align: center;
     padding-top: 1%;
     margin-bottom: 10rem;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 .main {
