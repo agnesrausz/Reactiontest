@@ -2,6 +2,7 @@
     --background-color: var(--neonwhite3);
     --theme-color: var(--neonblue);
     --neon-shadow: none;
+    --neon-shadow-hover: 0 0 30px var(--neonwhite);
     --neon-border: none;
     --button-color: var(--theme-color);
     /*colors*/
@@ -103,7 +104,7 @@ body {
 .container2 th,
 .container2 td,
 .container3 th,
-.container3 td{
+.container3 td {
     padding: 7px 15px;
     text-align: center;
     color: var(--neonwhite);
@@ -187,9 +188,11 @@ body {
     --button-color: var(--neonpink);
 
 }
+
 .buttons {
     margin: 3rem auto;
 }
+
 .button {
     position: relative;
     margin: 15px 15px;
@@ -263,9 +266,24 @@ body {
     --neon-shadow: 0 0 50px var(--neongreen);
 }
 
+.hit-bg:hover {
+    --background-color: var(--neongreen3);
+    --neon-shadow: 0 0 50px var(--neongreen);
+}
+
+.hit-bg:hover {
+    --background-color: var(--neongreen3);
+    --neon-shadow-hover: 0 0 50px var(--neongreen);
+}
+
 .miss-bg {
     --background-color: var(--neonred3);
     --neon-shadow: 0 0 50px var(--neonred);
+}
+
+.miss-bg:hover {
+    --background-color: var(--neonred3);
+    --neon-shadow-hover: 0 0 50px var(--neonred);
 }
 
 
@@ -282,8 +300,8 @@ body {
 }
 
 .col:hover {
-    background-color: var(--neonwhite3);
-    box-shadow: 0 0 30px var(--neonwhite);
+    background-color: var(--background-color);
+    box-shadow: var(--neon-shadow-hover);
     color: var(--neonwhite);
     transition-delay: 0.2s;
 }
