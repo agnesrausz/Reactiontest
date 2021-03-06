@@ -41,12 +41,12 @@ function leftClick(event) {
         cell.classList.add("hit-bg");
         setTimeout(() => {
             cell.classList.remove("hit-bg");
-        }, 150);
+        }, 450);
     } else {
         cell.classList.add("miss-bg");
         setTimeout(() => {
             cell.classList.remove("miss-bg");
-        }, 150);
+        }, 450);
     }
 }
 

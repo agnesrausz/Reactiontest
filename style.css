@@ -191,22 +191,22 @@ body {
     margin: 3rem auto;
 }
 .button {
-    color: var(--button-color);
-    text-shadow: 0 0 30px var(--button-color), 0 0 30px var(--button-color);
     position: relative;
     margin: 15px 15px;
-    transition: 0.5s;
     padding: 10px 10px;
+    color: var(--button-color);
+    text-shadow: 0 0 30px var(--button-color), 0 0 30px var(--button-color);
     text-decoration: none;
     font-size: 30px;
+    transition: 0.5s;
     /*border-radius: 30px;*/
 
 }
 
 .button:hover {
     background: var(--button-color);
-    color: var(--black);
     box-shadow: 0 0 30px var(--button-color);
+    color: var(--black);
     transition-delay: 0.1s;
     /*transition: 0.5s;*/
     /*position: relative;*/
@@ -224,8 +224,8 @@ body {
     height: 20px;
     border-top: 2px solid var(--button-color);
     border-left: 2px solid var(--button-color);
-    transition: 0.1s;
     border-radius: 3px;
+    transition: 0.1s;
 }
 
 .button:hover:before {
@@ -242,8 +242,8 @@ body {
     height: 20px;
     border-bottom: 2px solid var(--button-color);
     border-right: 2px solid var(--button-color);
-    transition: 0.1s;
     border-radius: 3px;
+    transition: 0.1s;
 }
 
 .button:hover:after {
@@ -272,19 +272,19 @@ body {
 .col {
     background-color: var(--background-color);
     box-shadow: var(--neon-shadow);
+    color: var(--neonblue);
     position: relative;
     margin: 15px;
-    color: var(--neonblue);
-    transition: 0.5s;
     padding: 20px 20px;
     border-radius: 20px;
+    transition: 0.5s;
     /*overflow: hidden;*/
 }
 
 .col:hover {
     background-color: var(--neonwhite3);
-    color: var(--black);
     box-shadow: 0 0 30px var(--neonwhite);
+    color: var(--neonwhite);
     transition-delay: 0.2s;
 }
 
@@ -297,8 +297,8 @@ body {
     height: 15px;
     border-top: 2px solid var(--neonblue);
     border-left: 2px solid var(--neonblue);
-    transition: 0.5s;
     border-radius: 3px;
+    transition: 0.5s;
 }
 
 .col:hover:before {
@@ -315,8 +315,8 @@ body {
     height: 15px;
     border-bottom: 2px solid var(--neonblue);
     border-right: 2px solid var(--neonblue);
-    transition: 0.5s;
     border-radius: 3px;
+    transition: 0.5s;
 }
 
 .col:hover:after {
