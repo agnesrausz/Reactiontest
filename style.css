@@ -210,7 +210,7 @@ body {
     background: var(--button-color);
     box-shadow: 0 0 30px var(--button-color);
     color: var(--black);
-    transition-delay: 0.1s;
+    transition-delay: 0.2s;
     /*transition: 0.5s;*/
     /*position: relative;*/
     /*margin: 15px 15px;*/
@@ -228,7 +228,7 @@ body {
     border-top: 2px solid var(--button-color);
     border-left: 2px solid var(--button-color);
     border-radius: 3px;
-    transition: 0.1s;
+    transition: 0.5s;
 }
 
 .button:hover:before {
@@ -246,7 +246,7 @@ body {
     border-bottom: 2px solid var(--button-color);
     border-right: 2px solid var(--button-color);
     border-radius: 3px;
-    transition: 0.1s;
+    transition: 0.5s;
 }
 
 .button:hover:after {
@@ -262,11 +262,6 @@ body {
 }
 
 .hit-bg {
-    --background-color: var(--neongreen3);
-    --neon-shadow: 0 0 50px var(--neongreen);
-}
-
-.hit-bg:hover {
     --background-color: var(--neongreen3);
     --neon-shadow: 0 0 50px var(--neongreen);
 }
@@ -303,7 +298,7 @@ body {
     background-color: var(--background-color);
     box-shadow: var(--neon-shadow-hover);
     color: var(--neonwhite);
-    transition-delay: 0.2s;
+    /*transition-delay: 0.2s;*/
 }
 
 .col:before {
